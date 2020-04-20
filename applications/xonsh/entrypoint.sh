@@ -1,1 +1,1 @@
-${APPDIR}/usr/bin/xonsh "$@"
+{{ python-executable }} -u "${APPDIR}/opt/python{{ python-version }}/bin/xonsh" "$@"
